@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation{
+ margin:10px;
+display:flex;
+justify-content:space-around;
+background-color: rgb(215, 46, 215);
+font-weight:bold;
+}
+footer{
+    background-color: rgb(215, 46, 215);
+    text-align: center;
+}
+
+.item{
+    width: 100%;
+    padding:1rem
+    
+}
+.item:hover{
+    background-color: red;
+    color: azure;
+    padding: 10px;
+    width: 150%;
+    text-align: center;
+}
+
+.design{
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+    justify-content:right;
+    background-color: yellow;
+
+}
+h3{
+    padding:5px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    border-radius: 9px;
+}
+img{
+    height: 60vh;
+    border-radius:50px;
+    margin: 10px;
+    padding: 5px;
+}
+
+img:hover {
+    animation: spin 6s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+  
+  
+.garima{
+    background: linear-gradient(cyan,lightgreen);
+    padding: 20px;
+    font-size: larger;
+    padding-bottom: 30vh;
+}
+ .garima:hover{
+    background: url(https://media.istockphoto.com/id/1143155816/vector/sprinkles-seamless-pattern.jpg?s=612x612&w=0&k=20&c=drsxlx83P3X2h7CJMN-S_6oaAfM7EGRgjhnaEsHh6DE=);
+   padding: 100px;
+   color:darkviolet;
+   font-weight: bolder;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 767px) {
+   .navigation{
+    display: none;
+   }
+
+.design{
+    display: block;
+}
+
+img{
+    width:auto;
+    height: 200px;
+}
+.garima{
+    width:auto;
+    height: auto;
+}
+
+  }
+  
+    
